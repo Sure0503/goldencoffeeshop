@@ -33,12 +33,12 @@ coffee-shop/
 ├─ about.html # About / contact page
 │
 ├─ css/
-│ └─ style.css # Stylesheet
+│   └─ style.css # Stylesheet
 │
 ├─ js/
-│ └─ script.js # JavaScript for cart functionality
+│   └─ script.js# JavaScript for cart functionality
 │
-└─ images/ # Hero and product images
+└─ images/
 ├─ hero.jpg
 ├─ coffee1.jpg
 ├─ coffee2.jpg
