@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Golden Coffee Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.body.classList.add('about-bg');
+      });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">Golden Coffee</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+        <style>
+            body.about-bg {
+                background-image: url('images/about.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                min-height: 100vh;
+                color: #fff;
+            }
+            .about {
+                background: rgba(0,0,0,0.4);
+                padding: 40px;
+                border-radius: 12px;
+                box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+                max-width: 600px;
+                margin: 60px auto;
+            }
+        </style>
+            <h2>About Golden Coffee Shop</h2>
+            <p>At Golden Coffee Shop, we serve freshly brewed coffee and handcrafted beverages with love. Visit us and experience the aroma of quality coffee.</p>
+
+            <h3>Contact Us</h3>
+            <p>Email: info@goldencoffee.com</p>
+            <p>Phone: +91 9876543210</p>
+            <p>Address: 123 Coffee Street, Bangalore, India</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Golden Coffee Shop</p>
+    </footer>
+
+</body>
+</html>

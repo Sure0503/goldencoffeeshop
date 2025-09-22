@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Golden Coffee Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Golden Coffee</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/coffee1.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>$3.50</p>
+                <button class="add-to-cart" data-name="Espresso" data-price="3.5">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/coffee2.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>$4.00</p>
+                <button class="add-to-cart" data-name="Cappuccino" data-price="4">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/coffee3.jpg" alt="Latte">
+                <h3>Latte</h3>
+                <p>$4.50</p>
+                <button class="add-to-cart" data-name="Latte" data-price="4.5">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/coffee4.jpg" alt="Mocha">
+                <h3>Mocha</h3>
+                <p>$5.00</p>
+                <button class="add-to-cart" data-name="Mocha" data-price="5">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Golden Coffee Shop</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
