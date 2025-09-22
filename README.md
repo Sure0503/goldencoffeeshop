@@ -25,18 +25,18 @@ The website is designed to be modern, clean, and user-friendly, making it ideal 
 
 coffee-shop/
 │
-├─ index.html # Home page
-├─ menu.html # Product listing page
-├─ product.html # Product details page
-├─ cart.html # Shopping cart page
-├─ checkout.html # Checkout form page
-├─ about.html # About / contact page
+├─ index.html 
+├─ menu.html 
+├─ product.html 
+├─ cart.html 
+├─ checkout.html 
+├─ about.html 
 │
 ├─ css/
-│   └─ style.css # Stylesheet
+│   └─ style.css 
 │
 ├─ js/
-│   └─ script.js# JavaScript for cart functionality
+│   └─ script.js
 │
 └─ images/
 ├─ hero.jpg
@@ -45,11 +45,6 @@ coffee-shop/
 ├─ coffee3.jpg
 ├─ coffee4.jpg
 └─ about.jpg
-
-yaml
-Copy code
-
----
 
 ## Technologies Used
 
